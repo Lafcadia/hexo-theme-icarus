@@ -44,10 +44,12 @@ class Footer extends Component {
                             &nbsp;&nbsp;Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
                             <a href="https://github.com/imaegoo/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
                             {showVisitorCounter ? <br /> : null}
-                            {icp ? [
-                                <a href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer noopener">{icp}</a>,
-                                <span>&nbsp;-&nbsp;</span>
-                            ] : null}
+                            <a href="https://icp.gov.moe/?keyword=20244154" target="_blank">萌ICP备20244154号</a>
+                            <br></br>
+                            <a title="无聊湾 🥱 The Boring Bay" href="https://boringbay.com"><img alt style="width:auto;height:25px;" src="https://boringbay.com/api/badge/chuishen.xyz"></img></a>
+                            <img src="https://chuishen.xyz/notAI.png" style="width:auto;height:25px;" />
+                            <a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt style="width:auto;height:25px;"/> </a>
+                            <br/>
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
                         </p>

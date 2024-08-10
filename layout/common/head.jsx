@@ -174,6 +174,8 @@ module.exports = class extends Component {
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script> : null}
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
+            {/* <link rel="stylesheet" href="https://chuishen.xyz/css/search.css" /> */}
+            <script src="https://chuishen.xyz/js/searchbutton.js" />
         </head>;
     }
 };
