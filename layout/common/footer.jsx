@@ -40,6 +40,7 @@ class Footer extends Component {
                             {footerLogo}
                         </a>
                         <p class="is-size-7">
+                            {/* <span class="post-count">博客总字数: {totalcount(site)}</span> */}
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}` }}></span>
                             &nbsp;&nbsp;Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
                             <a href="https://github.com/imaegoo/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
@@ -49,6 +50,7 @@ class Footer extends Component {
                             <a title="无聊湾 🥱 The Boring Bay" href="https://boringbay.com"><img alt style="width:auto;height:25px;" src="https://boringbay.com/api/badge/chuishen.xyz"></img></a>
                             <img src="https://chuishen.xyz/notAI.png" style="width:auto;height:25px;" />
                             <a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt style="width:auto;height:25px;"/> </a>
+                            <div style="width: 350px; height: 57px; border: 1px solid #BBBBBB;"><a href="https://ctext.org/zh"><img src="https://ctext.org/logos/ctplogo6.gif" border="0" alt="中国哲学书电子化计划" /></a></div>
                             <br/>
                             {showVisitorCounter ? <span id="busuanzi_container_site_uv"
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
